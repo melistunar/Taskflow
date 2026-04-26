@@ -28,7 +28,7 @@ export function Column({ id, title, tasks, onAddTask, onEditTask, onDeleteTask, 
       </div>
 
       <div ref={setDroppableRef} className="flex-1 flex flex-col gap-1">
-        <SortableContext items={tasks.map(t => t.id)} strategy={verticalListSortingStrategy}>
+        <SortableContext items={tasks.map((t: any) => t.id)} strategy={verticalListSortingStrategy}>
           {tasks.map((task: any) => (
             <TaskCard key={task.id} {...task} onEdit={onEditTask} onDelete={onDeleteTask} isReadOnly={isReadOnly} />
           ))}
