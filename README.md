@@ -69,8 +69,8 @@ Bu yapı sayesinde:
 
 - Modern ve aktif olarak geliştiriliyor  
 - React ile uyumlu  
-- Çok esnek (column + task drag aynı anda yapılabiliyor)  
-- Mobile desteği iyi (touch sensor var)
+- Çok esnek (column + task sürükleme aynı anda yapılabiliyor)  
+- Mobilde kullanılabilir (touch sensor var)
 
 ## Sorting Logic
 
