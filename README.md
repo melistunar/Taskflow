@@ -2,7 +2,7 @@
 Taskflow, ekip içinde görevleri organize etmek ve iş akışını yönetmek için tasarlanmış, sürükle-bırak (drag-and-drop) özellikli bir Kanban uygulamasıdır.
 ## Özellikler
 * **Kullanıcı kayıt / giriş sistemi:** localStorage ile yapıldı. 
-* **Sürükle-Bırak:** `dnd-kit` kütüphanesi kullanarak görevler sütunlar arasında ve sütunlar kendi arasında taşınabilir.
+* **Sürükle-Bırak:** "dnd-kit" kütüphanesi kullanarak görevler sütunlar arasında ve sütunlar kendi arasında taşınabilir.
 * **Görev Yönetimi:** Kullanıcılar yeni görevler ve sütunlar ekleyebilir, var olan görevleri düzenleyebilir, görevleri ve sütunları silebilir, Board oluşturma ve silme yapabilir.
 *   **Task detayları:**
     - Başlık
@@ -77,9 +77,9 @@ Bu yapı sayesinde:
 Kartların sırası kaybolmaması için:
 
 - Tüm state localStorage’a kaydediliyor
-- Her kolon kendi `items` array’ini tutuyor
+- Her kolon kendi items array’ini tutuyor
 - Sıralama:
-  - `arrayMove()` ile güncelleniyor
+  - arrayMove() ile güncelleniyor
 
 Bu sayede:
 - Refresh sonrası sıra korunuyor  
@@ -89,7 +89,7 @@ Bu sayede:
 
 Mobil için:
 
-- `TouchSensor` kullanıldı
+- TouchSensor kullanıldı
 - Uzun basma ile sürükleme başlıyor (delay ayarı var)
 - Responsive tasarım:
   - Flex layout
