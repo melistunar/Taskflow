@@ -71,6 +71,16 @@ Bu yapı sayesinde:
 - React ile uyumlu  
 - Çok esnek (column + task sürükleme aynı anda yapılabiliyor)  
 - Mobilde kullanılabilir (touch sensor var)
+  
+### Neden diğer kütüphaneler değil?
+- **react-beautiful-dnd**  
+  Artık aktif olarak geliştirilmediği için tercih etmedim.
+
+- **SortableJS**  
+  React için yerel (native) bir kütüphane değil, daha çok vanilla JavaScript odaklı.
+
+- **Native HTML5 Drag & Drop**  
+  Mobil desteği zayıf ve animasyonları manuel yapmak gerekiyor.
 
 ## Sorting Logic
 
